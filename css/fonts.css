@@ -1,0 +1,52 @@
+@font-face {
+  font-family: primetime;
+  src: url('../assets/fonts/primetime.ttf');
+  font-style: normal;
+}
+
+/* ------------------------------- */
+/* Font Sizes */
+/* ------------------------------- */
+
+/* Root Font Size */
+html {
+  font-size: 12px;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 624px) and (max-width: 767px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 623px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  html {
+    font-size: 6px;
+  }
+}
